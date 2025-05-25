@@ -21,8 +21,8 @@ export default function Home() {
 
   return (
      <>
-     <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=93ddb2383e6b8' async></script>
-     //<Script src="https://cdn.popt.in/pixel.js?id=93ddb2383e6b8" async/>
+
+
 
 
       {isMobile ?
@@ -30,7 +30,7 @@ export default function Home() {
     (
    
 
-    <div className="min-h-screen">
+    <div className="">
 
 
 
@@ -39,9 +39,12 @@ export default function Home() {
           <Image
             src="/Justknacks-waitlist-mobile.png"
             alt="Cultural background"
-            fill
+            //fill
             className="object-cover"
             priority
+            width={500}
+            height={1000}
+
           />
           <div className="absolute inset-0 bg-black/20" />
         </div>
@@ -50,7 +53,7 @@ export default function Home() {
     ):
 
      (
-      <a href="https://app.popt.in/api/display/click/c3e6536c922d8">
+      <Link href="https://app.popt.in/api/display/click/c3e6536c922d8">
      <div className="min-h-screen">
 
 
@@ -68,7 +71,7 @@ export default function Home() {
         </div>
         
     </div> 
-     </a>
+     </Link>
     )}
       
   </>
