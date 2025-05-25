@@ -22,7 +22,7 @@ export default function Home() {
   return (
      <>
 
-
+ <Link href="https://form.jotform.com/251444071448556" target="_blank">
 
 
       {isMobile ?
@@ -53,7 +53,7 @@ export default function Home() {
     ):
 
      (
-      <Link href="https://app.popt.in/api/display/click/c3e6536c922d8">
+     
      <div className="min-h-screen">
 
 
@@ -71,8 +71,9 @@ export default function Home() {
         </div>
         
     </div> 
-     </Link>
+     
     )}
+    </Link>
       
   </>
   );
