@@ -37,7 +37,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/Justknacks-waitlist-mobile.png"
+            src="/Justknacks-waitlist-mobile-2.png"
             alt="Cultural background"
             //fill
             className="object-cover"
